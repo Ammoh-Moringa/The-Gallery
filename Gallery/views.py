@@ -1,6 +1,7 @@
-from django.shortcuts import render 
-from django.http  import HttpResponse
+from django.shortcuts import render
+from .models import Image, Location
 
-# Create your views here.
+
 def index(request):
-    return HttpResponse('The Gallery')
+    images = Image.objects.all()
+    return render(request, 'pictures/index.html')
