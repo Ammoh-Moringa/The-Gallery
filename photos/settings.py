@@ -77,12 +77,11 @@ WSGI_APPLICATION = 'photos.wsgi.application'
 
 DATABASES = {
     'default': {
-         'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'photos',
         'USER': 'moringa',
-    'PASSWORD':'Ammoh',
-    }
+        'PASSWORD':'Ammoh',
+        'DISABLE_SERVER_SIDE_CURSORS': True,
     }
 }
 
