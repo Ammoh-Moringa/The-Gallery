@@ -1,0 +1,8 @@
+body{
+  scroll-behavior: smooth;
+ background-image:url(/static/backart.jpeg);
+ background-attachment:fixed;
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size:cover;
+ }
