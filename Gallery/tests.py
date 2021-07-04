@@ -14,3 +14,6 @@ class TestImage(TestCase):
 
         self.image_test = Image(id=1, name='Barcelona', description='Barcelona football club', location=self.location,
                                 category=self.category)
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.image_test, Image))
