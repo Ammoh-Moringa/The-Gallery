@@ -34,7 +34,8 @@ class TestImage(TestCase):
         changed_img = Image.objects.filter(image='photos/test.jpg')
         self.assertTrue(len(changed_img) > 0)
 
+     
     def test_get_image_by_id(self):
-        found_image = self.image_test.get_image_by_id(self.image_test.id)
-        image = Image.objects.filter(id=self.image_test.id)
-        self.assertTrue(found_image, image)
+            found_image = self.image.get_image_by_id(self.image.id)
+            images = Image.objects.filter(id=self.image.id)
+            self.assertFalse(found_image, images)
