@@ -1,8 +1,15 @@
 body{
-  scroll-behavior: smooth;
- background-image:url(/static/backart.jpeg);
- background-attachment:fixed;
- background-repeat:no-repeat;
- background-position:center;
- background-size:cover;
+background-image:url(/static/light.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
  }
+
+ .modalcard{
+  background-color:rgba(37, 36, 34, 0.925);
+  color:white;
+  border:none;
+  font-style: italic;
+  }
+
