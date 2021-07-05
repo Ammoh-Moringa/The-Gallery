@@ -43,7 +43,11 @@ Open the following host on your browser 127.0.0.1:8000
 4. Django 3.2.4
 5. JavaScript.
 
-# Live Link
+
 
 ## License
 The project is under the [MIT](licence) license.
+
+### live site
+
+View [live](https://thegallery8.herokuapp.com/)
