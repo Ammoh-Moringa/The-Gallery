@@ -17,7 +17,7 @@ Move to the folder and run the following commands;
 
 Set up Configurations and Installations
 
-    $ python3.8 manage.py makemigrations gallery
+    $ python3.8 manage.py makemigrations Gallery
 
 Running the Application
 
@@ -37,9 +37,11 @@ Open the following host on your browser 127.0.0.1:8000
 5. Gunicorn
 
 ### Technologies Used
-1. Python
+1. Python3.8
 2. bootstrap
 3. Git
+4. Django 3.2.4
+5. JavaScript.
 
 # Live Link
 
